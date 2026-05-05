@@ -1,0 +1,10 @@
+@PostMapping("/register")
+public String registerUser(@RequestBody User user) {
+    return "User registered successfully";
+}
+
+Create a REST API using Spring Boot for user registration and login.
+
+Create a secure REST API using Spring Boot with JWT authentication 
+for user registration and login, including MySQL integration.
+
